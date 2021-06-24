@@ -1,0 +1,21 @@
+$primary: #580280;
+$secondary: #505050;
+$light: #dddddd;
+$dark: #505050;
+$info: #67f707;
+$alert: #fd8700;
+$danger: #7e0101;
+$success: #00dbeb;
+
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'light': $light,
+  'dark': $dark,
+  'info': $info,
+  'alert': $alert,
+  'danger': $danger,
+  'success': $success
+);
+
+$navEdge: ridge;

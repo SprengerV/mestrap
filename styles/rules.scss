@@ -1,0 +1,43 @@
+body {
+  position: relative;
+}
+
+.btn {
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  border-width: 2px;
+  font-weight: bold;
+}
+
+.nav {
+  width: 100%;
+  height: 172px;
+  border-width: 16px 0 32px 0;
+  border-style: $navEdge;
+}
+
+.navBrand {
+  font-size: 32px;
+  margin: 16px 16px 8px 24px;
+  display: inline-block;
+  position: relative;
+  top: 144px;
+}
+
+.navBtn {
+  @extend .btn;
+  border-radius: 8px 0px 8px 2px;
+}
+
+.navigation {
+  display: inline;
+  position: relative;
+  top: 146px;
+  right: -50vw;
+}
+
+.navLink {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
